@@ -1,0 +1,56 @@
+
+body{
+	background-image: url(web7.jpg);
+    background-repeat: no-repeat;
+    background-image: fixed;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+li a:hover {
+  background-color: sepia;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+	
+
+
+#first{
+	color: black;
+	font-size: 60px;	
+	text-align: center;
+    font-family: algerian;
+
+}
+
+#fourth{	
+font-size: 20px;
+width: 1000px;
+padding: 400px;
+}
+
+#active{
+	
+}
