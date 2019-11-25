@@ -1,0 +1,153 @@
+
+ /*-----------------fcebook header style -------------------- */
+
+ .head_container{   
+	background-color: #415e9b;    
+	border:1px solid blue;
+	height: 85px;
+
+}
+
+.login1{
+
+	float: right;
+	margin-top: 15px;
+	margin-right: 80px;
+}
+.email1{
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+		
+}
+.password1{
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+	
+}
+#logo12{
+	float: left;
+	margin-top: 25px;
+	padding-left: 50px;
+	
+	
+	
+}
+#btn{
+	background-color: #2980b9;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	border: none;
+	font-size: 11px;
+
+
+}
+
+
+
+/*----------------------------- facebook form body style ---------------------------------------*/
+
+body{background: linear-gradient(#fff,#d6dcdb);
+	
+			
+	}
+	.leftbdy{
+		
+		padding-left: 80px;
+		padding-top: 30px;
+
+	}
+	.right{
+
+		margin-left: 780px;
+		margin-top: -250px;
+	}
+
+	.container{
+		
+		font-family: Arial;
+		
+		
+	}
+	span{
+		width: 20px;
+		margin-right: 200px;
+		/* padding-right: 980px; */
+
+
+		
+	}
+	label{
+		font-weight: bold;
+		font-size: 15px;
+	}
+	#accntbtn{
+		font-size: 15px;
+		padding: 7px 25px;
+		background: linear-gradient(#95d67c, #65a953);
+		border: 1px solid #3b6e22;
+		border-radius: 5px;
+		color: white ;
+		font-weight: bold;
+		font-family: Arial;
+
+	}
+	.first{
+		padding: 5px 10px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	} 
+	
+	.last{
+		padding: 5px 10px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	} 
+	 .usrnam{
+		padding: 5px 94px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	}
+	 .usrconf{
+		padding: 5px 94px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	}
+	.psswd{
+		padding: 5px 94px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	}
+	.confpsswd{
+		padding: 5px 94px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	}
+
+	.radibtn{
+		padding: 5px 30px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	}
+	.date{
+		padding: 5px 10px;
+		margin-bottom: 16px;
+		border-radius: 5px;
+	}
+	#te{
+		color: blue;
+		font-size: 12px;
+
+	}
+	.by{
+		font-size: 12px;
+		color: #666666;
+		text-align: justify;
+		
+
+				}
+				a{
+					text-decoration: none;
+				}

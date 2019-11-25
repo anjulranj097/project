@@ -1,0 +1,52 @@
+<!-- {% extends "sucess.html"%} -->
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+            <script type="text/javascript">
+
+                function showPass(){
+                     new_password    = document.getElementById('new_password').value;
+                     conf_password   = document.getElementById('conf_password').value;
+                     password_label  = document.getElementById('pswd');
+                     
+                     if(new_password != conf_password){
+                           password_label.innerHTML = 'Password is not Matching';
+                           return false;
+                       }
+                   }
+       
+           </script>
+    </head>
+    <body>
+        {% load staticfiles %}
+        <!-- <link rel="stylesheet" href="{% static 'style/change.css'%}">
+        <div id="fb">
+            <img src="{% static 'image/fbp1.png'%}" id="img1">
+        </div>
+            <div id="bg">
+            <div id="inside"> -->
+            <h3>Change Password
+            <hr></h3>
+             <table>
+                 <form method="POST" action="/fbapp/changepasswd/" name="changpass">
+                  {% csrf_token %}  
+            <tr>
+                <td>Current Password:</td>
+                <td><input type="password" name="current_password" id="current" placeholder="Current Password"></td>
+            </tr>
+                <tr><td>
+                New Password:</td>
+                <td><input type="Password" name="new_password" id="new_password" placeholder="New Password" ></td></tr>
+                 <tr>
+                    <td>Confirm password:</td>
+                    <td><input type="Password" name="confirm_password" id="conf_password" placeholder="Confirm Password"></td></tr>
+                <tr><td><label id="pswd" style="color: brown;"></label></td></tr>
+                <tr><td></td><td><input type="submit" value="submit" id="fun" onclick="return showPass()" style="background-color: #5c5cd6"></tr>
+                    </form>
+                </table>
+                 </div>
+                 </div>	
+    </body>
+</html>
+{% endblock %}
