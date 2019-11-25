@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <body>
+            {% load staticfiles %}
+            <link rel="stylesheet" href="{% static 'style/project1style.css'%}">
+            <form method="POST" action="/fbapp/userlogin/">
+                {% csrf_token %}
+                <header> 
+                    <div class="head_container"> 
+                     <div id="logo12">
+                        <img src="{% static 'image/fbp1.png'%}" width="150px"> </div> 
+            
+                        <div class="login1">
+                            <table>
+                                <tr>
+                            
+                                    <td class="email1">Email or Phone</td>
+                                    <td class="password1">  Password </td>
+                                    </tr><tr>
+                                    <td> <input  type="Email" name="username" id="us" ></td>
+                                    <td><input   type="password" name="Password" id="pd"></td> 
+                                    <td> <input  type="submit" name="submit" id="btn" value="Login"></td>
+                                 </tr>
+                               
+                            </table>
+                        </form>
+                         </div>
+                        </div>
+                        <div class="container">
+                            <div class="leftbdy">
+                                 <p><b>Facebook helps you connect and share with the people in your life.</b></p>
+                                 <img src="{% static 'image/OBaVg52wtTZ.png'%}">
+                            </div>    
+                         <div class="right">
+                             <div>
+                                 <h1>Create an account</h1> 
+                                 <h3>It's quick and easy.</h3>
+                                 <form method="POST" action="/fbapp/userregister/">
+                                    {% csrf_token %}
+                                     <input  type="text" name="firstname" placeholder="First Name" class="first">
+                                     <input  type="text" name="lastname" placeholder="Surname" class="last"><br>
+                                     <input  type="text" name="username" placeholder="Mobile number or email address" class="usrnam"><br>
+                                     <input  type="text" name="confemail" placeholder="Re-enter Mobile number or email address" class="usrconf"><br>
+                                     <input  type="password" name="password" placeholder="Password" class="psswd"> <br>
+                                     <input  type="password" name="passw" placeholder="Confirm Password" class="confpsswd"> <br>
+                                     <label>Birthday</label><br>
+                                     <input  type="date" name="dob" class="date"><span id="te">why do i need to provide my date of birth?</span><br>
+                                     <input  type="radio" name="Radio" value="female" class="radibtn"><label> Female</label>
+                                     <input  type="radio" name="Radio" value="male" class="radibtn"><label> Male <br>
+                                     <br>
+                                     <input type="submit" name="" value="Create an account" id="accntbtn"> 
+                                     <span>Create a Page for a celebrity,band or business</span>
+                                  </form>
+                              </div>
+                          </div>
+             
+                           <footer>
+                            <!-- <img src="C:\Users\SHAJIN\Pictures\Screenshots\Screenshot (13)zz.png" alt=""> -->
+                            </footer>
+
+                        </header>   
+            </form>
+        </body>
+    </head>
+</html>

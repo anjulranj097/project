@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>After Successful Login</title>
+	
+</head>
+<body>
+    
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'style/sucess.css'%}">
+<div class="header">
+	<input type="text" placeholder="Search Facebook" id="search" >
+	<img src=""> Haris 
+</div>
+<div class="body1">
+	<div id="part"><img src="">Haris Np</div>
+	<div id="part"><img src="">Edit Profile</div>
+</div>
+
+<div class="body2">
+	<div id="column1"><img src=""> Update Status   | <img src=""> Add Photos/Video   | <img src=""> Write Note</div>
+	<hr>
+	<div><img src=""><textarea placeholder="What's on your mind?" id="post"></textarea></div>
+</div>
+<div class="body3">
+	
+</div>
+<div class="body4">
+	<select value="YOUR ADS" id="ads">
+		<option>YOUR ADS</option>
+	<option><div id="opt"></div></option>
+	<option><div id="opt"></div></option>
+	<option><div id="opt"></div></option>
+	<option><div id="opt"></div></option>
+	<option><div id="opt"></div></option>
+    <option><div id="opt"></div></option>
+</select>
+</div>
+<div>
+        <a href="/fbapp/changepasswd/">change password</a>
+</div>
+<div>
+		{% block content %}
+		{% endblock %}
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

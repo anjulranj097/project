@@ -1,0 +1,55 @@
+#back{
+  background-color: #3b5998;
+  height: 60px;
+  width: 100%;
+  padding-right: 100px;
+
+ }
+ #logo{
+  width: 12%;
+  margin-left: 85px;
+
+ }
+ #sign{
+   width: 60px;
+   padding-bottom: 14px;
+ }
+
+  a{
+    text-decoration: none;
+      }
+
+ #table{
+  width: 600px; 
+  height: 280px;
+  margin-left: 350px;
+  padding: 10px;
+  background-color: white;
+ }
+ #page{
+  background-color: #d6dcdb;
+  width: 100%;
+  height: 300px;
+  padding: 50px;
+ }
+ #profile{
+  width: 13%;
+ }
+ #footer{
+  width: 100%;
+ }
+ #lname{
+  float: right;
+  padding-right: 310px;
+  padding-top: 5px;
+ }
+ #rname{
+  color: black;
+  font-weight: bold;
+ }
+ #mail{
+  color: silver;
+ }
+ span{
+  color: red;
+ }
